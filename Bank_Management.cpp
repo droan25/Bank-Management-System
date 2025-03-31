@@ -1,6 +1,4 @@
 #include<iostream>
-#include<fstream>
-#include<vector>
 #include<string>
 #include<unordered_map>
 #include<cstdlib>  
@@ -381,8 +379,8 @@ int main(){
         cout<<"3. Deposit Money\n";
         cout<<"4. Withdraw Money\n";
         cout<<"5. Delete Account\n";
-        cout<<"6. Exit\n";
-        cout<<"7. Show Transaction History\n";
+        cout<<"6. Show Transaction History\n";
+        cout<<"7. Exit\n";
         cout<<"------------------------------------\n";
         cout<<"Enter your choice: ";
         cin>>choice;
